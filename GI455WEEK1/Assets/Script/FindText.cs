@@ -36,7 +36,7 @@ public class FindText : MonoBehaviour
                 break;
 
             default:
-                Display.GetComponent<Text>().text = "[ <color=Red>"+Name+"</color> ] is not found.";
+                Display.GetComponent<Text>().text = "[ <color=Red>" + Name + "</color> ] is not found.";
                 break;
         }
         
